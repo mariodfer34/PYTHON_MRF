@@ -1,0 +1,1 @@
+"""Leer dos cadenas y concatenarlas manualmente sin usar el operador + en una sola operación (concatenar carácter a carácter con un ciclo)."""
