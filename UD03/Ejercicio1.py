@@ -14,7 +14,6 @@ for i in range(altura - 1):
         print((espacios * a) + asterisco + (espacios_dentro * k) + asterisco)
         k += 2
         a -= 1
-    primeroYultimo = True
 
 for l in range(altura):
     if l == altura - 1:
