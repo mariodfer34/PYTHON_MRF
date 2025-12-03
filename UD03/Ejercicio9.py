@@ -12,7 +12,6 @@ if altura % 2 == 0:
         else:
             print(asterisco + (espacio * (i + 1)) + asterisco + (espacio * (i + 1)) + asterisco)
         contador += 2
-        
     print(asterisco + espacio * (altura - 1) + asterisco)
     contador -= 2
 
@@ -32,7 +31,6 @@ else:
         else:
             print(asterisco + (espacio * (i + 1)) + asterisco + (espacio * (altura - contador)) + (espacio * (i + 1)) + asterisco)
         contador += 2
-        
     print(asterisco + espacio * (altura - 2) + asterisco)
     contador -= 2
 

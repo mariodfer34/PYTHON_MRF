@@ -1,6 +1,5 @@
 asterisco = "*"
 espacios = " "
-espacios_interiores = " "
 altura = int(input("Introduce la altura: "))
 resta = 1
 suma = -1
@@ -13,7 +12,7 @@ for i in range(altura):
     elif i == ((altura // 2)):
         print((espacios * (altura - resta)) +  ((asterisco + espacios) * (i + 1)))
     else:
-        print((espacios * (altura - resta)) + asterisco + (espacios_interiores * suma) + asterisco)
+        print((espacios * (altura - resta)) + asterisco + (espacios * suma) + asterisco)
     resta += 1
     suma += 2
 
